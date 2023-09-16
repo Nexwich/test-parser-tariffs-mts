@@ -14,7 +14,6 @@ spl_autoload_register(function ($class_name) {
   include $class_root;
 });
 
-
 // По умолчанию
 $controller_name = '';
 $action_name = '';
@@ -38,7 +37,6 @@ if (!preg_match("/^[\w]+$/", $controller_name)) {
 $controller_class = '\system\controllers\\' . $controller_name;
 
 // Создать экземпляр и вывести представление
-
 try {
   $controller = new $controller_class();
   echo $controller->call($action_name);
