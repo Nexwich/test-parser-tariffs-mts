@@ -1,0 +1,21 @@
+{
+  "name": "test-parser-tariffs-mts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "js-build": "webpack --mode=development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "babel-loader": "latest",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest",
+    "webpack-cli": "^5.1.4"
+  }
+}

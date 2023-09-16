@@ -1,0 +1,17 @@
+[
+  {
+    "route": "/",
+    "controllerClass": "tariff",
+    "controllerAction": "index"
+  },
+  {
+    "route": "/tariffs/parse",
+    "controllerClass": "tariff",
+    "controllerAction": "parse"
+  },
+  {
+    "route": "/tariffs/clear",
+    "controllerClass": "tariff",
+    "controllerAction": "clear"
+  }
+]
